@@ -1,0 +1,49 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+*{
+    color: white;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.all{
+    width: 100%;
+    min-height: 100vh;
+    background:center url(../img/tumblr_2e5a005c8d974cf75deb524edd10c409_324c5049_500.gif);
+    background-size: 100% 100%;
+}
+.card{
+    background-color:  rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur( 10px );
+}
+.form-control{
+    background: transparent;
+    color: white;
+}
+.form-control:focus{
+    background-color: transparent;
+    color: white;
+}
+.form-control::placeholder {
+    color: #fff; 
+}
+.im{
+    width: 200px;
+}
+h2{
+    color:#fff;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#country{
+    font-size:30px ;
+    color: #fff;
+}
+#nameCity{
+    font-size:30px ;
+    color: #fff;
+
+}
